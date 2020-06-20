@@ -17,16 +17,18 @@
         //Chapter 14: if statements nested
 
 
-        var username = prompt("Please enter username");
-        if (username === "Umair") {
+        var Firstname = prompt("Please enter Firstname");
+        var Lastname = prompt("Please enter Lastname");
+        var password = prompt("Please enter password");
+        if ((Firstname === "Umair" || Lastname === "Sadiq") && password === "12345") {
             alert("Welcome! to my Page");
         }
+
         else {
-            (username !== "Umair")
+            (Firstname !== "Umair" || Lastname !== "Sadiq");
             alert("Access denied!");
         }
 
-        
 
 
 
