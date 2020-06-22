@@ -1,0 +1,23 @@
+.main{
+border: 6px solid seagreen;
+border-radius: 15px 15px 0px 0px;
+width: 250px;
+height: 250px;
+margin: 0 auto;
+padding: 10px;
+}
+
+.result{
+    width:95%;
+    margin: 3px;
+    background-color: grey;
+    color: white;
+}
+
+.clear-btn{
+    width: 100%;
+    margin-top: 10px;
+    background-color:grey;
+    width:50%;
+    margin: 1px;
+}
