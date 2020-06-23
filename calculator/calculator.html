@@ -13,33 +13,34 @@
     <h2>with using HTML CSS & Javascript</h2>
 
     <div class="main">
-        <div >
-            <input class="result" type="text">
+        <div>
+            <input id="result" class="result" type="text">
         </div>
         <div>
-            <button class="clear-btn">C</button>
+            <button class="clear-btn" onclick="clearResult()">C</button>
         </div>
         <div>
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>x</button>
+            <button class="btn" onclick="getNumber('7')">7</button>
+            <button class="btn" onclick="getNumber('8')">8</button>
+            <button class="btn" onclick="getNumber('9')">9</button>
+            <button class="btn" onclick="getNumber('*')">x</button>
         </div>
         <div>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>-</button>
+            <button class="btn" onclick="getNumber('4')">4</button>
+            <button class="btn" onclick="getNumber('5')">5</button>
+            <button class="btn" onclick="getNumber('6')">6</button>
+            <button class="btn" onclick="getNumber('-')">-</button>
         </div>
         <div>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>+</button>
+            <button class="btn" onclick="getNumber('1')">1</button>
+            <button class="btn" onclick="getNumber('2')">2</button>
+            <button class="btn" onclick="getNumber('3')">3</button>
+            <button class="btn" onclick="getNumber('+')">+</button>
         </div>
         <div>
-            <button>0</button>
-            <button>=</button>
+            <button class="halfbtn" onclick="getNumber('0')">0</button>
+            <button class="halfbtn" onclick="getResult()">=</button>
+            <button class="halfbtn" onclick="getNumber('/')">&divide;</button>
         </div>
     </div>
 

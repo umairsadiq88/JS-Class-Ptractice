@@ -8,16 +8,27 @@ padding: 10px;
 }
 
 .result{
-    width:95%;
+    width: 100%;
     margin: 3px;
     background-color: grey;
     color: white;
 }
 
 .clear-btn{
-    width: 100%;
+    width: 95%;
     margin-top: 10px;
     background-color:grey;
-    width:50%;
     margin: 1px;
+}
+
+.btn{
+    background-color: grey;
+    width: 45px;
+    margin: 1px;
+}
+
+.halfbtn{
+    background-color: grey;
+    width: 25%;
+    margin-top: 5px;
 }
