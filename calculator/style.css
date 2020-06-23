@@ -1,34 +1,52 @@
 .main{
-border: 6px solid seagreen;
-border-radius: 15px 15px 0px 0px;
+border: 2px solid black;
+border-radius: 15px 15px 15px 15px;
 width: 250px;
-height: 250px;
 margin: 0 auto;
-padding: 10px;
+padding: 18px;
+
 }
 
-.result{
-    width: 100%;
+/* .result{
+    width: 75%;
+    height: 30px;
     margin: 3px;
     background-color: grey;
     color: white;
+} */
+
+.btn-success {
+    width: 195px !important;
+    height: 50px !important;
+    font-size: 20px !important;
+}
+
+.btn-primary{
+font-size: 20px !important;
+
 }
 
 .clear-btn{
-    width: 95%;
-    margin-top: 10px;
+    width: 79%;
+    height: 25px;
+    margin-top: 15px;
     background-color:grey;
-    margin: 1px;
+    color: white;
+    margin: 4px;
+    font-size: larger;
 }
 
 .btn{
     background-color: grey;
     width: 45px;
-    margin: 1px;
+    margin: 5px;
+    padding: 5px;
+    font-size: larger;
 }
 
 .halfbtn{
     background-color: grey;
+    font-size: larger;
     width: 25%;
-    margin-top: 5px;
+    margin: 5px;
 }

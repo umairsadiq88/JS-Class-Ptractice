@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <title>Calculator || make by UMAIR SADIQ</title>
 </head>
 
@@ -14,33 +15,34 @@
 
     <div class="main">
         <div>
-            <input id="result" class="result" type="text">
+            <input id="result" class="btn btn-success" type="text">
         </div>
-        <div>
+        <div btn-group>
             <button class="clear-btn" onclick="clearResult()">C</button>
         </div>
-        <div>
-            <button class="btn" onclick="getNumber('7')">7</button>
-            <button class="btn" onclick="getNumber('8')">8</button>
-            <button class="btn" onclick="getNumber('9')">9</button>
-            <button class="btn" onclick="getNumber('*')">x</button>
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary" onclick="getNumber('7')">7</button>
+            <button type="button" class="btn btn-primary" onclick="getNumber('8')">8</button>
+            <button type="button" class="btn btn-primary" onclick="getNumber('9')">9</button>
+            <button type="button" class="btn btn-primary" onclick="getNumber('*')">x</button>
         </div>
-        <div>
-            <button class="btn" onclick="getNumber('4')">4</button>
-            <button class="btn" onclick="getNumber('5')">5</button>
-            <button class="btn" onclick="getNumber('6')">6</button>
-            <button class="btn" onclick="getNumber('-')">-</button>
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary" onclick="getNumber('4')">4</button>
+            <button type="button" class="btn btn-primary" onclick="getNumber('5')">5</button>
+            <button type="button" class="btn btn-primary" onclick="getNumber('6')">6</button>
+            <button type="button" class="btn btn-primary" onclick="getNumber('-')">-</button>
         </div>
-        <div>
-            <button class="btn" onclick="getNumber('1')">1</button>
-            <button class="btn" onclick="getNumber('2')">2</button>
-            <button class="btn" onclick="getNumber('3')">3</button>
-            <button class="btn" onclick="getNumber('+')">+</button>
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary" onclick="getNumber('1')">1</button>
+            <button type="button" class="btn btn-primary" onclick="getNumber('2')">2</button>
+            <button type="button" class="btn btn-primary" onclick="getNumber('3')">3</button>
+            <button type="button" class="btn btn-primary" onclick="getNumber('+')">+</button>
         </div>
-        <div>
-            <button class="halfbtn" onclick="getNumber('0')">0</button>
-            <button class="halfbtn" onclick="getResult()">=</button>
-            <button class="halfbtn" onclick="getNumber('/')">&divide;</button>
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary" onclick="getNumber('0')">0</button>
+            <button type="button" class="btn btn-primary" onclick="getNumber('.')">.</button>
+            <button type="button" class="btn btn-primary" onclick="getResult()">=</button>
+            <button type="button" class="btn btn-primary" onclick="getNumber('/')">&divide;</button>
         </div>
     </div>
 
@@ -48,5 +50,6 @@
 
 </body>
 <script src="app.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 </html>
