@@ -10,36 +10,40 @@
 
 <body>
 
-<div class="main">
-    <image src="https://www.ke.com.pk/assets/themes/KE/images/logo.png" />
-    <h1>Bill Calculation</h1>
-    <p>This App will help you to calculate your monthly KE bill as per KE tarriff.</p>
+    <div class="main">
+        <image src="https://www.ke.com.pk/assets/themes/KE/images/logo.png" />
+        <h1>Bill Calculation</h1>
+        <p>This App will help you to calculate your monthly KE bill as per KE tarriff.</p>
 
-</div>
+    </div>
 
-
+<form>
     <table>
-        
-       <tr>
+
+        <tr>
             <td><label name="unit enter">Enter your Units</label> </td>
-            <td><input type="number" name="unit enter" /> </td> </form>
+            <td><input type="number" name="unit enter" id="units" /> </td>
         </tr>
         <tr>
             <td><label name="Total Bill Cost">Total Bill Cost</label> </td>
-            <td><input type="text" name="Total Bill Cost" /> </td>
+            <td><input type="text" name="Total Bill Cost" id="total"/> </td>
         </tr>
-    </table>  <br /><br />
+    </table> 
 
-   
+</form>
+    
+    <br /><br />
 
-    <table class="billCal"> 
-        <tr >
+
+
+    <table class="billCal">
+        <tr>
             <td> KE Tariff</td>
             <td>KE Tariff Charges <br />per Unit</td>
             <td>Consumtion Unit</td>
             <td>Amount</td>
         </tr>
-    
+
         <tr>
             <td>001-100 Units </td>
             <td>5.79</td>
@@ -69,7 +73,7 @@
         </tr>
 
         <tr>
-            <td>700-Above Units</td>
+            <td>701-Above Units</td>
             <td>20.70</td>
             <td></td>
             <td></td>
@@ -80,4 +84,5 @@
 
 </body>
 <script src="App.js"></script>
+
 </html>
