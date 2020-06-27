@@ -12,13 +12,24 @@
 
 .main p{
     font-family: 'Lucida Grande', 'Lucida Sans Unicode',;
-    font-size: 17px;
+    font-size: 20px;
+    font-weight: bold;
     font-style: inherit;
     color: #004d00;
-    background-color: lightgreen;
+ 
 }
 
 .billCal {
     margin: 0 auto;
     padding: 0 auto;
+    border-style: solid;
+    text-align: center;
+    
+}
+
+.billCal td {
+    border-style: solid;
+    padding: 12px;
+    font-size: large;
+   
 }
