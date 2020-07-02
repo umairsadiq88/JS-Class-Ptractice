@@ -195,5 +195,50 @@
 // console.log(cities);
 
 
+//Chapter 17 Arrays: Removing, inserting, and extracting elements
+
+// var cities = ["Karachi", "Islamabad", "Peshawar", "Sindh", "KPK", "Punjab","Balochistan", "Rawalpindi", "Sialkot", "Quetta"];
+
+//add cities
+
+// cities.unshift("Lahore", "Multan");
+// console.log(cities);
+
+//remove city
+
+// cities.shift("Lahore");
+// console.log(cities);
+
+//replace with range
+
+// cities.splice(2, 2, "Multan", "Lahore");
+// console.log(cities);
+
+// cities.splice(2, 0, "Peshawar", "Rawalpindi");
+
+//remove with range
+// cities.splice(2,2);
+// console.log(cities);
+
+//extract array
+// console.log(cities);
+
+// var noCities = cities.splice(3,4);
+// console.log(noCities);
+// console.log(cities);
+
+//Chapter 18 for loops
+
+var cities = [
+                "Karachi", "Islamabad", "Peshawar", 
+                "Rawalpindi", "Sialkot", "Quetta"
+            ];
+console.log(cities);
+
+    for (var i = 0; i <= 6; i++) {
+        if (cities[0]) {
+        alert("It's one of the city of Pakistan");
+        }
+    }
 
 
