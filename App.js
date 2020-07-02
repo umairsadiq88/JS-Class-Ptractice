@@ -229,15 +229,34 @@
 
 //Chapter 18 for loops
 
-var cities = [
-                "Karachi", "Islamabad", "Peshawar", 
-                "Rawalpindi", "Sialkot", "Quetta"
-            ];
-console.log(cities);
 
+// for (var i=0; i<=4; i++) {
+//     console.log(i);
+//     }
+
+// for (var i = 10 ; i > 0 ; i--) {
+//         console.log(i);
+//         }
+
+//for loop example
+
+// var num = 3;
+
+// for (var i=1; i<=10; i++) {
+//     console.log(num+ " x "+i+" = "+(num*i));
+    
+// }
+
+var citytocheck = prompt("enter your city");
+
+var cities = ["Karachi", "Islamabad", "Peshawar","Rawalpindi", "Sialkot", "Quetta"];
+var i;
     for (var i = 0; i <= 6; i++) {
-        if (cities[0]) {
-        alert("It's one of the city of Pakistan");
+        if (citytocheck === cities) {
+        console.log(cities + " " + "It's one of the city of Pakistan");
+        }
+        else { (citytocheck ===!cities)
+            console.log(cities + " " + "It's not one of the city of Pakistan");
         }
     }
 
