@@ -63,7 +63,6 @@
 // var num3 = (2 + 4) * (8 + 10);
 // document.write(num3);
 
-
 //Chapter 8: Concatenating text strings
 
 // var message = "Welcome";
@@ -84,15 +83,13 @@
 //     alert("Welcome Umair");
 // }
 
-
 //Chapter 11: Comparison operators
 
 // Here are 4 more comparison operators, usually used to compare numbers.
 // > is greater than
 // < is less than
 // >= is greater than or equal to
-// <= is less than or equal to 
-
+// <= is less than or equal to
 
 //Chapter 12: if...else and else if statements
 
@@ -115,9 +112,7 @@
 //     alert("Access denied!");
 // }
 
-
 //Chapter 14: if statements nested
-
 
 // var Firstname = prompt("Please enter Firstname");
 // var Lastname = prompt("Please enter Lastname");
@@ -130,7 +125,6 @@
 //     (Firstname !== "Umair" || Lastname !== "Sadiq");
 //     alert("Access denied!");
 // }
-
 
 //Another Example
 
@@ -178,8 +172,7 @@
 //replace array with index numbers
 // cities [0] = "Rawalpindi";
 // cities [1] = "Sukkur";
-// console.log (cities[2]); 
-
+// console.log (cities[2]);
 
 //remove Array
 
@@ -193,7 +186,6 @@
 
 // cities.push("Rawalpindi" , "Sukkur");
 // console.log(cities);
-
 
 //Chapter 17 Arrays: Removing, inserting, and extracting elements
 
@@ -229,7 +221,6 @@
 
 //Chapter 18 for loops
 
-
 // for (var i=0; i<=4; i++) {
 //     console.log(i);
 //     }
@@ -244,20 +235,27 @@
 
 // for (var i=1; i<=10; i++) {
 //     console.log(num+ " x "+i+" = "+(num*i));
-    
+
 // }
 
-var citytocheck = prompt("enter your city");
+var cityToCheck = prompt("enter your city");
 
-var cities = ["Karachi", "Islamabad", "Peshawar","Rawalpindi", "Sialkot", "Quetta"];
-var i;
-    for (var i = 0; i <= 6; i++) {
-        if (citytocheck === cities) {
-        console.log(cities + " " + "It's one of the city of Pakistan");
-        }
-        else { (citytocheck ===!cities)
-            console.log(cities + " " + "It's not one of the city of Pakistan");
-        }
-    }
+var cities = [
+  "Karachi",
+  "Islamabad",
+  "Peshawar",
+  "Rawalpindi",
+  "Sialkot",
+  "Quetta"
+];
 
+for (var i = 0; i <= 6; i++) {
+  if (cityToCheck === cities[i]) {
+    console.log(cities[i] + " " + "is one of the city of Pakistan");
+  }
 
+  else if (cityToCheck != cities[i]) {
+    console.log(cityToCheck + " " + "is not the city of Pakistan");
+  }
+
+}
