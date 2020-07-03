@@ -238,7 +238,59 @@
 
 // }
 
-var cityToCheck = prompt("enter your city");
+// var cityToCheck = prompt("enter your city");
+
+// var cities = [
+//   "Karachi",
+//   "Islamabad",
+//   "Peshawar",
+//   "Rawalpindi",
+//   "Sialkot",
+//   "Quetta"
+// ];
+
+// for (var i = 0; i <= 6; i++) {
+//   if (cityToCheck === cities[i]) {
+//     console.log(cities[i] + " " + "is one of the city of Pakistan");
+//   }
+
+// }
+
+//Chapter 20 for loops nested
+
+// var firstNames = ["Umair ", "Imran ", "Waseem ", "Zulfiqar ", "Yasir"];
+// var lastNames = ["Sadiq", "A.Sattar", "A.Waheed", "Ali"];
+// var fullNames = [];
+// for (var i = 0; i < firstNames.length; i++) {
+//   for (var j = 0; j < lastNames.length; j++) {
+//     fullNames.push(firstNames[i] + lastNames[j]);
+//     document.write(fullNames + "</br>");
+//   }
+// }
+
+//Chapter Changing case
+
+//Lower Case
+
+// var cityToCheck = prompt("Enter your city");
+// cityToCheck = cityToCheck.toLowerCase();
+// var cities = ["karachi", "islamabad", "peshawar", "rawalpindi", "sialkot","quetta"];
+// for (var i = 0; i <= 6; i++) {
+// if (cityToCheck === cities[i]) {
+// alert("It's one of the cleanest cities");
+// }
+// }
+
+//Uper Case
+
+// var cityToCheck = prompt("Enter your city");
+// cityToCheck = cityToCheck.toUperCase();
+// var cities = ["karachi", "islamabad", "peshawar", "rawalpindi", "sialkot","quetta"];
+// for (var i = 0; i <= 6; i++) {
+// if (cityToCheck === cities[i]) {
+// alert("It's one of the cleanest cities");
+// }
+// }
 
 var cities = [
   "Karachi",
@@ -249,13 +301,5 @@ var cities = [
   "Quetta"
 ];
 
-for (var i = 0; i <= 6; i++) {
-  if (cityToCheck === cities[i]) {
-    console.log(cities[i] + " " + "is one of the city of Pakistan");
-  }
-
-  else if (cityToCheck != cities[i]) {
-    console.log(cityToCheck + " " + "is not the city of Pakistan");
-  }
-
-}
+var firstChar = cities.slice (2,5);
+console.log(firstChar);
