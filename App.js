@@ -256,29 +256,32 @@
 
 // }
 
-//Chapter 20 for loops nested
+// Chapter 20 for loops nested
 
 // var firstNames = ["Umair ", "Imran ", "Waseem ", "Zulfiqar ", "Yasir"];
 // var lastNames = ["Sadiq", "A.Sattar", "A.Waheed", "Ali"];
 // var fullNames = [];
 // for (var i = 0; i < firstNames.length; i++) {
-//   for (var j = 0; j < lastNames.length; j++) {
-//     fullNames.push(firstNames[i] + lastNames[j]);
-//     document.write(fullNames + "</br>");
-//   }
+//     for (var j = 0; j < lastNames.length; j++) {
+//         fullNames.push(firstNames[i] + lastNames[j]);
+//         document.write(fullNames + "</br>");
+//     }
 // }
 
 //Chapter 21 Changing case
 
 //Lower Case
 
-// var cityToCheck = prompt("Enter your city");
-// cityToCheck = cityToCheck.toLowerCase();
-// var cities = ["karachi", "islamabad", "peshawar", "rawalpindi", "sialkot","quetta"];
+// var cityToCheck = prompt("Enter your city")
+// // cityToCheck = cityToCheck.toLowerCase();
+// var cities = ["karachi", "islamabad", "peshawar", "rawalpindi", "sialkot", "quetta"];
 // for (var i = 0; i <= 6; i++) {
-// if (cityToCheck === cities[i]) {
-// alert("It's one of the cleanest cities");
-// }
+//     if (cityToCheck === cities[i]) {
+//         return 
+
+//     } else {
+//         console.log("not in list")
+//     }
 // }
 
 //Uper Case
@@ -424,3 +427,83 @@
 // var str = "JavaScript is Great is Language"
 // var a = str.valueOf();
 // document.write(a);
+
+
+
+// var arr = [
+//     {
+//         name: "Umair",
+//         age: 30,
+//         hobbies: ["cricket", "tippan", "football", "etc"]
+//     },
+//     {
+//         name: "Bilal",
+//         age: 36
+//     },
+//     {
+//         name: "Tehseen",
+//         age: 37
+//     }
+// ];
+
+// var b = arr.filter(val => val.name !== "Umair")
+
+// console.log(b)
+
+
+// var hobbies = ["cricket", "tippan", "football", "etc"]
+
+// var valDelet = "tippan"
+
+// var remainHobbies = hobbies.filter(val => val !== valDelet)
+
+// console.log(remainHobbies)
+
+
+// var cities = ["karachi", "multan", "pindi", "islamabad"]
+
+// var name = prompt("enter your city")
+
+// var city = cities.filter((val) => {
+//     val !== name
+// })
+
+// console.log(city)
+
+
+var a = [1, 2, 3, 4, 5];
+var b = [6, 7, 8, 9, 0, "Umair"]
+
+var c = [...b, ...a].sort()
+
+console.log(c)
+
+
+
+// var obj = {
+//     name: "umair",
+//     age: 39,
+//     hobbies: ["bp", "cricket", "tippan"],
+//     subject: {
+//         english: "grammer",
+//         urdu: "salees",
+//         math: "ans",
+//         internet: {
+//             net: ["zong", "jaz", "ufone"]
+//         }
+//     }
+// }
+// const { name, subject: { urdu, internet: { net } } } = obj;
+
+// console.log(net[2]);
+
+
+
+var div = { 
+    name: "Umair",
+    age: 39,
+    dept: "vaccine",
+}
+
+var { name } = div;
+console.log(name);
