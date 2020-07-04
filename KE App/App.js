@@ -18,9 +18,13 @@ function getUnit() {
     }
 
     else if (units <= 300) {
+        var remaiUnits = (units - 200);
+        var hundredUnit = (100 * 8.11);
         var newUnits = (units * 10.20)
         newUnits = Math.round(newUnits);
         totalUnits = newUnits;
+        console.log(newUnits);
+        
     }
 
     else if (units <= 700) {
