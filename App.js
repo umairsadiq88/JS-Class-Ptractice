@@ -268,7 +268,7 @@
 //   }
 // }
 
-//Chapter Changing case
+//Chapter 21 Changing case
 
 //Lower Case
 
@@ -292,14 +292,135 @@
 // }
 // }
 
-var cities = [
-  "Karachi",
-  "Islamabad",
-  "Peshawar",
-  "Rawalpindi",
-  "Sialkot",
-  "Quetta"
-];
+// var cities = [
+//   "Karachi",
+//   "Islamabad",
+//   "Peshawar",
+//   "Rawalpindi",
+//   "Sialkot",
+//   "Quetta"
+// ];
 
-var firstChar = cities.slice (2,5);
-console.log(firstChar);
+// var firstChar = cities.slice (2,5);
+// console.log(firstChar);
+
+//Chapter 22 Strings: Measuring length and extracting parts
+
+// var cities = ["Karachi","Islamabad","Peshawar","Rawalpindi",];
+// var firstChar = cities.slice(0, 1);
+// console.log(firstChar);
+
+// var someChars = cities.slice(2);
+// console.log(someChars);
+
+// var month = prompt("Enter a month");
+// var charsInMonth = month.length;
+// if (charsInMonth > 3) {
+// monthAbbrev = month.slice(0, 3);
+// console.log(month);
+
+// }
+
+// JavaScript String Methods
+
+//length property
+// var str = "JavaScript is Great Language"
+// var a = str.length;
+// document.write(a);
+
+//LowerCase & UperCase
+// var str = "JavaScript is a Great Language"
+// var a = str.toLowerCase();
+// document.write(a);
+// var a = str.toUpperCase();
+// document.write(a);
+
+// Includes()
+// var str = "JavaScript is Great Language"
+// var a = str.includes("Great");
+// document.write(a);
+
+// startsWith() & endsWith()
+// var str = "JavaScript is Great Language"
+// var a = str.startsWith("JavaScript");
+// document.write(a);
+
+// var str = "JavaScript is Great Language"
+// var a = str.endsWith("age");
+// document.write(a)
+
+// search() means position return index show
+// var str = "JavaScript is Great Language"
+// var a = str.search("is");
+// document.write(a);
+
+// means()
+// var str = "JavaScript is Great is Language"
+// var a = str.match(/is/g);
+// document.write(a);
+
+// indexOf & astIndexOf()
+// var str = "JavaScript is Great is Language"
+// var a = str.indexOf("is");
+// document.write(a);
+// var a = str.lastIndexOf("is");
+// document.write(a);
+
+// replace()
+// var str = "JavaScript is Great is Language"
+// var a = str.replace("is", "are");
+// document.write(a);
+
+// trim() space removing
+// var str = "   JavaScript   "
+// var a = str.trim();
+// alert(a);
+
+// charAt()
+// var str = "JavaScript is Great is Language"
+// var a = str.charAt(3);
+// document.write(a);
+
+// charCodeAt() & fromCharCode()
+
+// var str = "JavaScript is Great is Language"
+// var a = String.fromCharCode(65);
+// document.write(a);
+
+//concat()
+
+// var str = "JavaScript is Great is Language"
+// var str2 = "Hello";
+// var a = str.concat(" " + str2);
+// document.write(a);
+
+// split()
+// var str = "JavaScript is Great is Language"
+// var a = str.split("i");
+// document.write(a);
+
+// repeat()
+// var str = "JavaScript is Great is Language"
+// var a = str.repeat(2);
+// document.write(a);
+
+// slice()
+// var str = "JavaScript is Great is Language"
+// var a = str.slice(-1);
+// document.write(a);
+
+//substr() & substring()
+//var str = "JavaScript is Great is Language"
+// var a = str.substr(3,5);
+//var a = str.substring(3,5);
+//document.write(a);
+
+//toString() & valueOf()
+
+// var num = 50;
+// var a = num.toString();
+// document.write(a + 20);
+
+// var str = "JavaScript is Great is Language"
+// var a = str.valueOf();
+// document.write(a);
